@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-160 -160 320 320" preserveAspectRatio="xMidYMax meet">
+	<title>Logo: Turtle</title>
+	<desc>Logo from mosscap, an adaptation of a computercraft turtle.</desc>
+	<style type="text/css">
+<![CDATA[
+	.bg { fill: #404040; fill-rule: evenodd }
+	.corpus { fill: #808080 }
+	.grass, .hat { fill: #007F0E }
+	.lights { fill: none }
+	@media (prefers-color-scheme: dark) {
+	.hat { fill: #30e60b }
+	.lights {fill: #EEFF00 }
+	}
+	@media (prefers-reduced-motion: no-preference) {
+	.animate { animate: false }
+	}
+]]>
+	</style>
+	<g>
+		<g class="ground">
+			<rect x="-400" y="128" width="800" height="32" class="grass"/>
+		</g>
+		<g class="body">
+			<path d="M0,-96 h96v32h32v128h-32v32h-192v-32h-32v-128h32v-32h96zM0,-64h64v32h-128v-32" class="bg"/>
+			<rect x="-96" y="-96" width="192" height="192" class="corpus"/>
+			<rect x="-64" y="-64" width="128" height="32" class="visor"/>
+			<rect x="-60" y="-44" width="32" height="8" class="animate" id="cursor">
+				<animate attributeType="XML" attributeName="fill" from="none" to="#FFF" begin="4s" dur="1s" repeatCount="indefinite"/>
+			</rect>
+			<rect x="-64" y="96" width="32" height="32" class="bg" id="rightwheel"/>
+			<rect x="32" y="96" width="32" height="32" class="bg" id="leftwheel"/>
+		</g>
+		<g class="hat">
+			<path d="M0,-80 h80 v16 h16 v16 h16 v-32 h-16 v-16 h-16 v-16 h-80 h-80 v16 h-16 v16 h-16 v32 h16 v-16 h16 v-16 h80 Z"/>
+		</g>
+		<g class="lights">
+			<rect x="-120" y="40" width="16" height="16"/>
+			<rect x="104" y="40" width="16" height="16"/>
+		</g>
+	</g>
+</svg>
